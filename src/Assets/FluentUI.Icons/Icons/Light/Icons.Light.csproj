@@ -11,11 +11,14 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="Microsoft.FluentUI.AspNetCore.Components" />
 	  <PackageReference Include="Microsoft.VisualStudioEng.MicroBuild.Core">
 	    <PrivateAssets>all</PrivateAssets>
 	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 	  </PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\..\Core\Microsoft.FluentUI.AspNetCore.Components.csproj" />
 	</ItemGroup>
 
 </Project>
